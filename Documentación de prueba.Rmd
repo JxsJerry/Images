@@ -1,0 +1,70 @@
+---
+title: "Documentación de Texto"
+author: "Curso de Estadística Descriptiva"
+date: "27/6/2019"
+output: pdf_document
+---
+
+# Título 1
+
+## Título 2
+
+### Título 3
+
+#### Título 4
+
+##### Título 5
+
+###### Título 6
+
+Esto es un texto llano. Podemos escribir sin ningún problema todo el texto que queramos para acompañar a tanto el código en `R` como las fórmulas en \LaTeX.
+
+Siempre nos saltamos 2 renglones para marcar un nuevo párrafo.
+
+Para colocar *cursiva* podemos usar un asterisco: *esto sería un texto en cursiva* o bien usar una barra baja _esto también es cursiva_.
+
+Para colocar **negrita** podemos usar un doble asterisco: **esto sería el texto en negrita** o bien una doble barra baja __esto también es un texto en negrita__.
+
+Los superíndices van con el *sombrerito*: La ecuación de una parábola es x^2.
+
+Si quiero convertir una palabra en hipervínculo, primero coloco lo que quiero convertir entre corchetes [Gerardo](https://www.facebook.com/ghmartinez2) e inmediatamente después colocar la URL entre paréntesis.
+
+endash: -- (Guión corto)
+
+emdash: --- (Guión largo)
+
+elipsis: ...
+
+ecuaciones en línea $S = \pi\cdot r^2$.
+
+***
+
+Barra divisoria con tres asteriscos. 
+
+> Esto es una cita en bloque.
+
+### Listas no ordenadas
+
+* Item primero
+* Item segundo
+    + Sub item 1
+    + Sub item 2
+*Item tercero
+
+### Listas ordenadas
+
+1. Primer item
+1. Segundo item
+    + Sub item 1
+    + Sub item 3
+1. Tercer item
+4. Cuarto item
+1. Quinto item
+
+
+Alumno      |      Nota     | Edad
+------------|---------------|--------
+Gerardo     | 10            | 22
+Manny       | 9             | 21
+Uriel       | 8             | 23
+Govea       | 7             | 22
